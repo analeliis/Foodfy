@@ -66,15 +66,27 @@ body{
   flex-direction: column;
   align-items: center;
 
+  
+  position: relative; /*Por conta do position absolute*/
+
   margin-bottom: 50px;
 }
 
 .banner img{
-  position: absolute; /*referencia ao pai no caso aqui seria o body*/
-  right: 0;
+  
+  position: absolute; /*referencia ao pai no caso aqui seria o banner*/
+  right: 100px;
   bottom: 0;
+  top: 66px;
 }
 
+/*
+  Todos tem que usar position
+  absolute : referencia ao pai
+  relative : referencia a ele mesmo aonde o elemento de encontra
+  fixed: Fica fixo na tela e aparece o scroll   
+
+  */
 /*.banner .banner-text{
 
   /*alinhamento dos textos
