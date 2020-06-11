@@ -15,7 +15,7 @@ body{
 .content{
   /*alinhamento da div*/
   width: 100%;
-  max-width: 940px;
+  max-width: 940px; /*referencia que podemos usar é a largura do banner */
   margin: 0 auto;
 
   display: flex; 
@@ -51,6 +51,40 @@ body{
 }
 
 /*BANNER  */
+
+.banner{
+  background-color: #FBDFDB;;
+  border-radius: 30px;
+
+  /*Altura é Largura*/
+  max-width: 940px; 
+  height: 366px;
+  min-width: 600px;
+
+  /*Alinhamento dos contéudos*/
+  display: flex;  /*Alinha*/
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 50px;
+}
+
+.banner img{
+  position: absolute; /*referencia ao pai no caso aqui seria o body*/
+  right: 0;
+  bottom: 0;
+}
+
+/*.banner .banner-text{
+
+  /*alinhamento dos textos
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 117px;
+}*/
+
+
 
 
 
