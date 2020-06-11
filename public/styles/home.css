@@ -41,6 +41,7 @@ body{
   margin-right: 30px;
   text-decoration: none; /*tirar sublinhado*/
 
+  
   font-size: 16px;
   color: #111111;
 }
@@ -63,7 +64,6 @@ body{
 
   /*Alinhamento dos contéudos*/
   display: flex;  /*Alinha*/
-  flex-direction: column;
   align-items: center;
 
   
@@ -80,6 +80,39 @@ body{
   top: 66px;
 }
 
+.banner .banner-text{
+  margin-left: 60px;
+  
+  /*Position dos elementos*/
+  position: absolute;
+  top: 117px;
+}
+
+.banner-text h1{
+  font-weight: bold;
+  font-size: 32px;
+  color: #111111;
+
+  margin-bottom: 10px;
+
+  width: 305px;
+  height: 38px;
+}
+
+.banner-text p{
+  width: 316px;
+  height: 84px;
+
+  opacity: 0.7;
+  font-size: 18px;
+
+  color: #000000;
+  line-height: 28px;
+  
+}
+
+
+
 /*
   Todos tem que usar position
   absolute : referencia ao pai
@@ -87,14 +120,7 @@ body{
   fixed: Fica fixo na tela e aparece o scroll   
 
   */
-/*.banner .banner-text{
 
-  /*alinhamento dos textos
-  display: flex;
-  flex-direction: column;
-
-  margin-bottom: 117px;
-}*/
 
 
 
