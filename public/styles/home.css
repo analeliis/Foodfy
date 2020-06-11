@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;/*altura e largura chega ate tamanho da  border*/
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: #ffffff; /*cor de fundo*/
+}
+
+/*Alinhamento da Div e dos elementos dentro dela e do menu*/
+.content{
+  /*alinhamento da div*/
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+
+  display: flex; 
+  flex-direction: column; /*conteudos seráo empilhados um embaixo do outro*/
+}
+
+.content header{
+  margin-top: 38px;
+  margin-bottom: 36px;
+
+  /*alinhar os itens*/
+  display: flex; 
+  align-items: center;  /*alinhar ao eixo x*/
+}
+
+.content header nav{
+  /*alinhamento dos link*/
+
+  margin-left: 122.4px;
+}
+
+.content header nav a{
+  margin-right: 30px;
+  text-decoration: none; /*tirar sublinhado*/
+
+  font-size: 16px;
+  color: #111111;
+}
+
+.content header nav a:hover{
+  font-weight: bolder;
+  transition: color 200ms;
+}
+
+/*BANNER  */
+
+
+
+
