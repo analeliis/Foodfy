@@ -16,6 +16,8 @@ body{
   background-color: #ffffff; /*cor de fundo*/
 
   font-family: 'Roboto', sans-serif;
+
+ 
 }
 
 /*Alinhamento da Div e dos elementos dentro dela e do menu*/
@@ -222,6 +224,8 @@ body{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
+
+  margin-bottom: 50px; 
 }
 
 .cards .card img {
@@ -256,7 +260,7 @@ footer{
   max-width: 100%;
   height: 62px;
 
-  margin-top: 50px;
+ 
 
 }
 
