@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 :root{
   --color--1: #111111;
 }
+
 *{
   margin: 0;
   padding: 0;
@@ -39,7 +41,8 @@ body{
 .content header nav{
   /*alinhamento dos link*/
 
-  margin-left: 122.4px;
+  position: relative;
+  left: 122.4px;
 }
 
 .content header nav a{
@@ -51,6 +54,8 @@ body{
   font-size: 16px;
   color:var(--color--1);
 }
+
+
 
 .content header nav a:hover{
   font-weight: bolder;
