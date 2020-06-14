@@ -33,6 +33,8 @@ main .about h2{
   margin-top: 30px;
   margin-bottom: 20px;
 
+  color:var(--color--1);
+
 }
 main .about p.last{
   margin-bottom: 50px;
@@ -40,7 +42,7 @@ main .about p.last{
 
 footer.footer-grey{
   position: relative;
-  bottom: -560px;
+  bottom: -600px;
   
   
   
