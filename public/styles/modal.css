@@ -13,9 +13,11 @@
   width: 100%;
   height: 100%;
   position: fixed; /*fixado na tela*/
+
   top: 0;
   left: 0;
-  /* visibility:hidden; visibilidade tem que esta escondida da classe */
+  
+  visibility:hidden; /*visibilidade tem que esta escondida da classe*/
   
 }
 
