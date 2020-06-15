@@ -1,0 +1,49 @@
+main .about h1{
+  width: 164px;
+  height:28px;
+
+  font-weight: bold;
+  font-size: 24px;
+  color:var(--color--1);
+
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+main .about {
+
+  width: 940px;
+  height: 280px;
+
+  font-size: 18px;
+  color: #444444;
+  line-height: 28px;
+
+  text-align: justify;
+  
+}
+
+main .about h2{
+  width: 202px;
+  height: 24px;
+
+  font-weight: bold;
+  font-size: 20px;
+
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+  color:var(--color--1);
+
+}
+main .about p.last{
+  margin-bottom: 50px;
+}
+
+footer.footer-grey{
+  position: relative;
+  bottom: -600px;
+  
+  
+  
+}
