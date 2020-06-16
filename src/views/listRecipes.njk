@@ -1,0 +1,53 @@
+{% extends "layout.njk" %}
+
+{%block title%}
+  <title>Lista de Receitas</title>
+{%endblock title%}
+
+
+{% block styles %}
+  <link rel="stylesheet" href="/styles/modal.css">
+{% endblock styles %}
+
+{% block content %}
+  <main>
+
+    <div class="cards-recipes">
+      {% for item in itens%}
+        <div class="card">
+
+          <img src="{{item.image}}" alt="{{item.title}}">
+          <p class="p1">{{item.title}}</p>
+          <p>{{item.author}}</p>
+
+        </div>
+
+        {%endfor%}
+
+      </div>
+
+    </main>
+
+    <script defer src="/script.js"></script>
+
+  {% endblock content %}
+
+  {# 
+  <!-- MODAL -->
+  <div class="modal-overlay">
+    <div class="modal">
+      <div class="modal-img">
+        <img src="/public/assets/asinhas.png" alt="Assinhas de Frango ao barbecue">
+      </div>
+
+      <div class="modal-text">
+        <p>Asinhas de frango ao barbecue</p>
+        <p class="subscrite">por Vania Steroski
+        </p>
+      </div>
+
+      <div class="modal-rodape">
+        <p>Fechar modal</p>
+      </div>
+    </div>
+  </div> #}
