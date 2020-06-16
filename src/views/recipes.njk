@@ -1,0 +1,37 @@
+{% extends "layout.njk" %}
+
+{% block title %}
+  <title>Receitas Detalhes</title>
+{% endblock title %}
+
+{% block stykes %}
+  <link rel="stylesheet" href="/public/styles/recipes.css">
+{% endblock stykes %}
+
+{% block content %}
+
+  <main>
+    <div class="recipes-details">
+      <img src="{{recipes.image}}" alt="{{recipes.title}}">
+      <h1>{{recipes.title}}</h1>
+      <h3>por {{recipes.author}}</h2>
+
+      <div class="recipes-content">
+        <h2>Ingredientes</h2>
+        <a href="">ESCONDER</a>
+
+        <ul>
+        {% for list in recipes.ingredients %}
+          <li>{{list}}</li>
+        {% endfor %}
+        </ul>
+      
+      </div>
+    
+    </div>
+  </main>
+
+
+  <script defer src="/script.js"></script>
+
+{% endblock content %}
