@@ -1,4 +1,4 @@
-main .about h1{
+.about h1{
   width: 164px;
   height:28px;
 
@@ -10,10 +10,8 @@ main .about h1{
   margin-bottom: 20px;
 }
 
-main .about {
-
-  width: 940px;
-  height: 280px;
+.about {
+  height: auto; 
 
   font-size: 18px;
   color: #444444;
@@ -23,9 +21,7 @@ main .about {
   
 }
 
-main .about h2{
-  width: 202px;
-  height: 24px;
+.about h2{
 
   font-weight: bold;
   font-size: 20px;
@@ -36,7 +32,7 @@ main .about h2{
   color:var(--color--1);
 
 }
-main .about p.last{
+.about p.last{
   margin-bottom: 50px;
 }
 

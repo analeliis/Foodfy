@@ -24,7 +24,7 @@ for (let i = 0, len = recipesList.length; i < len; i++) { //renderizados  0,1
 for (let i = 0; i < hide.length; i++) {
   hide[i].addEventListener("click", function() {
     if (hide[i].textContent == "ESCONDER") { //Hide 1 == ao conteudo o texto esconder 
-      hide[i].textContent == "MOSTRAR";//se apertar no mostrar 
+      hide[i].textContent = "MOSTRAR";//se apertar no mostrar 
       info[i].classList.add("off"); //add off classe que esconde 
     }
     else {
