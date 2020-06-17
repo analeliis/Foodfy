@@ -1,5 +1,7 @@
 // const modalOverlay = document.querySelector('.modal-overlay'); //selecinar apenas o modal
-const recipesList = document.querySelectorAll('.card'); //selecionar todos os cards no documento //array de elementos 
+const recipesList = document.querySelectorAll('.card'); //selecionar todos os cards no documento //array de elementos
+const hide = document.querySelectorAll(".hide");
+const info = document.querySelectorAll(".info"); 
 
 
 //Criar um array com todos os elementos que tem a classe .card    route params
@@ -14,6 +16,22 @@ for (let i = 0, len = recipesList.length; i < len; i++) { //renderizados  0,1
     //aqui eu digo que o var 'i' é parametro da função e dentro dela conseguimos
     //utilizá-lo como o parâmetro  id 
   })(i);
+}
+
+
+//Script pra mostrar o mostrar e esconder
+
+for (let i = 0; i < hide.length; i++) {
+  hide[i].addEventListener("click", function() {
+    if (hide[i].textContent == "ESCONDER") { //Hide 1 == ao conteudo o texto esconder 
+      hide[i].textContent == "MOSTRAR";//se apertar no mostrar 
+      info[i].classList.add("off"); //add off classe que esconde 
+    }
+    else {
+      hide[i].textContent = "ESCONDER";  //se apertar no esconder 
+      info[i].classList.remove("off"); //remover a class off esconder o conteudo
+    }
+  })
 }
 
 
