@@ -15,7 +15,7 @@ for (let i = 0, len = recipesList.length; i < len; i++) { //renderizados  0,1
     };
     //aqui eu digo que o var 'i' é parametro da função e dentro dela conseguimos
     //utilizá-lo como o parâmetro  id 
-  })(i);
+  })(i);  //
 }
 
 
